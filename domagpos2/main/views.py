@@ -10,3 +10,6 @@ class TaskViewSet(viewsets.ModelViewSet):
 
 def Home(request):
     return render(request, 'home.html')
+
+def page_one(request):
+    return render(request, 'page1.html')

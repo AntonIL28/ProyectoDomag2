@@ -9,5 +9,5 @@ router.register(r'Task', TaskViewSet)
 urlpatterns = [
     path('api/', include(router.urls)),
     path('', views.Home, name='home'),
-
+    path('page1/', views.page_one, name="page_one"),
 ]
